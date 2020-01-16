@@ -25,3 +25,20 @@ if animal_to_find in zoo:
 print(second_animal)
 print(tenth_animal)
 print(first_animal)
+
+# Convert your tuple into a list
+
+list_to_tuple = list(zoo)
+print(list_to_tuple)
+
+# Use extend() to add three more animals to your zoo.
+animal_for_list = ("alligator", "elephant", "giraffe")
+list_to_tuple.extend(animal_for_list)
+print(list_to_tuple)
+
+# Convert the list back into a tuple.
+
+def convert(list_to_tuple):
+    return tuple(list_to_tuple)
+
+print(list_to_tuple)
